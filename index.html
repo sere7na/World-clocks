@@ -11,14 +11,14 @@
 <body>
  <div class="container">
     <h1> World Clocks</h1>
-    <select>
+    <select id="city">
         <option value="">Select a city</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Tokyo</option>
-        <option value="">Mexico City</option>
+        <option value="Europe/Madrid">Madrid</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="America/Buenos_Aires">Buenos Aires</option>
     </select>
-
+  <div id="cities">
     <div class="city" id="Ottawa">
      <div>
         <h2>Ottawa</h2>
@@ -26,12 +26,13 @@
      </div>   
         <div class="time"></div>
     </div>
- <div class="city" id="Canberra">
+    <div class="city" id="Canberra">
      <div>
         <h2>Canberra</h2>
         <div class="date"></div>
      </div>   
         <div class="time"></div>
+    </div>
     </div>
 </div>
 <br>
