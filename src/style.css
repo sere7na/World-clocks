@@ -4,9 +4,12 @@ body {
     justify-content: center;
     margin: 0;
 }
+
 h1 {
+    color: rgb(125, 16, 175);
+    padding: 15px 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -29,12 +32,13 @@ h2 {
     display: flex;
     margin: 20px 0;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 30px 0;
     border-bottom: 1px dashed rgb(214, 211, 211);
 }
 
 .city:last-child {
     border: none;
+    padding: 10px;
 }
 
 .date {
@@ -55,7 +59,7 @@ h2 {
 select {
 display: block;
 width: 100%;
-font-size: 15px;
+font-size: 16px;
 padding: 10px;
 border-radius: 20px;
 }
